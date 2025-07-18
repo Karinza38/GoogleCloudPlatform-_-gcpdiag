@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Python 3.12
-FROM ubuntu:24.04
+FROM ubuntu:24.10
 
 # Update apt-get and install required packages.
 RUN apt-get update && apt-get install --no-install-recommends -y \
